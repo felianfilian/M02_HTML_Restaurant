@@ -19,6 +19,15 @@ h1 {
   font-size: 48px;
 }
 
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+td {
+  width: 200px;
+}
+
 /* main classes */
 
 .main-container {
@@ -40,9 +49,7 @@ h1 {
 
 .container {
   margin-bottom: 32px;
-
-  padding-right: 100px;
-  padding-left: 100px;
+  padding: 20px 100px;
 }
 
 .font-hand01 {
@@ -59,6 +66,25 @@ h1 {
 .button01:hover {
   background-color: #fff;
   color: rgb(10, 0, 156) !important;
+}
+
+.button02 {
+  padding: 8px 16px;
+
+  border: 2px solid rgb(10, 0, 156);
+  border-radius: 10px;
+  color: rgb(10, 0, 156);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button02:hover {
+  background-color: rgb(10, 0, 156);
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: rgb(0, 0, 0, 0.2);
 }
 
 /* header */
