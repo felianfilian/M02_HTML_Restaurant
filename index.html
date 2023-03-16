@@ -14,70 +14,79 @@
 <body>
   <header>
     <img class="head-img" src="./img/sushibar01.jpg" alt="">
-    <h1>Mein Sushi Restaurant</h1>
-    <p>Das beste Sushi der Stadt</p>
+    <div class="main-menu">
+      <a class="menu-link" href="#">Tisch reservieren</a>
+      <a class="menu-link" href="#">Online bestellen</a>
+      <a class="menu-link" href="#">Kontakt</a>
+    </div>
+    <div class="main-container">
+      <h1 class="headline01 font-hand01">Mein Sushi Restaurant</h1>
+      <h3>Das beste Sushi der Stadt</h3>
+    </div>
   </header>
 
-  <h3>Unsere Speisen</h3>
-
-  <table>
-    <tr>
-      <td>Sashimi</td>
-      <td>12,- €</td>
-    </tr>
-    <tr>
-      <td>California Rolls</td>
-      <td>10,- €</td>
-    </tr>
-    <tr>
-      <td>Hosomaki</td>
-      <td>9,- €</td>
-    </tr>
-  </table>
-
-  <p>Alles mit würzigen Soßen</p>
-
-  <a href="./downloads/Speisekarte.pdf">Jetzt Speisekarte herunterladen</a>
-
-  <h2>Unsere Öffnungzeiten</h2>
-  <table>
-    <tr>
-      <td>Montag bis Freitag</td>
-      <td>12:00 - 23:00 Uhr</td>
-    </tr>
-    <tr>
-      <td>Samstag</td>
-      <td>11:00 - 24:00 Uhr</td>
-    </tr>
-    <tr>
-      <td>Sonntag</td>
-      <td>10:00 - 22:00 Uhr</td>
-    </tr>
-  </table>
-
-  <h2>Unsere Adresse</h2>
-  <p>Musteradresse 00</p>
-  <p>00000 Musterstadt</p>
-
-  <div style="display: flex; justify-content: center;">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9743.627274306868!2d9.714922939550792!3d52.37210960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b075a98698c949%3A0x67742f8f9c471835!2sHannover%20Altstadt!5e0!3m2!1sde!2sde!4v1678920978310!5m2!1sde!2sde"
-      width="90%" height="450" style="border:0;" allowfullscreen="false" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="container">
+    <h2 class="font-hand01">Unsere Speisen</h2>
+    <table>
+      <tr>
+        <td>Sashimi</td>
+        <td>12,- €</td>
+      </tr>
+      <tr>
+        <td>California Rolls</td>
+        <td>10,- €</td>
+      </tr>
+      <tr>
+        <td>Hosomaki</td>
+        <td>9,- €</td>
+      </tr>
+    </table>
+    <p>Alles mit würzigen Soßen</p>
+    <a href="./downloads/Speisekarte.pdf">Jetzt Speisekarte herunterladen</a>
   </div>
 
-  <h2>Kontakt</h2>
-  <p>So kannst du uns kontaktieren</p>
-  <div>Telefon: <a href="tel:123456789">0123 / 456789</a></div>
-  <div>E-Mail: <a href="mailto:info@sushibar.sushi">info@sushibar.sushi</a></div>
+  <div class="container">
+    <h2 class="font-hand01">Unsere Öffnungzeiten</h2>
+    <table>
+      <tr>
+        <td>Montag bis Freitag</td>
+        <td>12:00 - 23:00 Uhr</td>
+      </tr>
+      <tr>
+        <td>Samstag</td>
+        <td>11:00 - 24:00 Uhr</td>
+      </tr>
+      <tr>
+        <td>Sonntag</td>
+        <td>10:00 - 22:00 Uhr</td>
+      </tr>
+    </table>
+  </div>
 
-  <br><br>
+  <div class="container">
+    <h2 class="font-hand01">Unsere Adresse</h2>
+    <p>Musteradresse 00</p>
+    <p>00000 Musterstadt</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9743.627274306868!2d9.714922939550792!3d52.37210960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b075a98698c949%3A0x67742f8f9c471835!2sHannover%20Altstadt!5e0!3m2!1sde!2sde!4v1678920978310!5m2!1sde!2sde"
+      class="googlemaps" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 
-  <footer>
-    (C) Copyright Sushi
-    <a href="impressum.html">Impressum</a>
-    <a href="datenschutz.html">Datenschutz</a>
-  </footer>
+  <div class="container">
+    <h2 class="font-hand01">Kontakt</h2>
+    <p>So kannst du uns kontaktieren</p>
+    <div>Telefon: <a href="tel:123456789">0123 / 456789</a></div>
+    <div>E-Mail: <a href="mailto:info@sushibar.sushi">info@sushibar.sushi</a></div>
+    <br><br>
+  </div>
+
+  <div class="container footer">
+    <div>(C) Copyright Sushi</div>
+    <div>
+      <a class="footer-link" href="impressum.html">Impressum</a> |
+      <a class="footer-link" href="datenschutz.html">Datenschutz</a>
+    </div>
+  </div>
 
 </body>
 
