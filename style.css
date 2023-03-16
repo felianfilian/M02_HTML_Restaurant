@@ -1,5 +1,9 @@
 /* main tags */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 
@@ -45,6 +49,18 @@ h1 {
   font-family: "Julee", cursive;
 }
 
+.button01 {
+  padding: 8px 16px;
+
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.button01:hover {
+  background-color: #fff;
+  color: rgb(10, 0, 156) !important;
+}
+
 /* header */
 
 .headline01 {
@@ -63,10 +79,9 @@ h1 {
 
 .main-menu {
   position: absolute;
-  top: 20px;
+  top: 32px;
   right: 0;
 
-  width: 50%;
   z-index: 10;
 }
 
